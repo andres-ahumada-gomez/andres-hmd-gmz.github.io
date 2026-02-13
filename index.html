@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tu Nombre — Web profesional</title>
+  <meta name="description" content="Web profesional de Tu Nombre. Proyectos, experiencia y contacto." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/">Tu Nombre</a>
+    <nav class="nav">
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="projects.html">Proyectos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <h1>Hola, soy <span class="accent">Tu Nombre</span>.</h1>
+        <p class="lead">
+          Rol + 1 línea de propuesta de valor (ej: “Economista y data analyst centrado en…”, “Profesor e investigador en…”).
+        </p>
+
+        <div class="cta">
+          <a class="button" href="projects.html">Ver proyectos</a>
+          <a class="button button-ghost" href="#contacto">Contactar</a>
+        </div>
+
+        <ul class="links">
+          <li><a href="https://www.linkedin.com/in/TU-USUARIO" target="_blank" rel="noreferrer">LinkedIn</a></li>
+          <li><a href="https://github.com/TU-USUARIO" target="_blank" rel="noreferrer">GitHub</a></li>
+          <li><a href="mailto:tuemail@dominio.com">tuemail@dominio.com</a></li>
+        </ul>
+      </div>
+
+      <!-- Opcional: foto -->
+      <!-- <img class="avatar" src="assets/avatar.jpg" alt="Foto de Tu Nombre" /> -->
+    </section>
+
+    <section id="sobre-mi" class="section">
+      <h2>Sobre mí</h2>
+      <p>
+        Párrafo corto (4–6 líneas): qué haces, en qué eres fuerte, sectores/temas, y qué buscas.
+      </p>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Especialidades</h3>
+          <ul>
+            <li>Especialidad 1</li>
+            <li>Especialidad 2</li>
+            <li>Especialidad 3</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Herramientas</h3>
+          <ul>
+            <li>Python / R / SQL (lo que aplique)</li>
+            <li>Power BI / Tableau / Git (lo que aplique)</li>
+            <li>Cloud / ML / etc. (si aplica)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="section">
+      <h2>Contacto</h2>
+      <p>La forma más rápida: <a href="mailto:tuemail@dominio.com">tuemail@dominio.com</a></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <small>© <span id="year"></span> Tu Nombre</small>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
