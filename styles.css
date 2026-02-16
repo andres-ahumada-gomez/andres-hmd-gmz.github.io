@@ -258,8 +258,8 @@ h3{
 }
 
 .hero-photo {
-  width: 70px;        /* tamaño de la foto */
-  height: 70px;
+  width: 100%;        /* tamaño de la foto */
+  height: auto;
   border-radius: 50%; /* circular */
   object-fit: cover;
 }
