@@ -118,7 +118,7 @@ h3{
   border: 0px solid var(--border);
   box-shadow: var(--shadow);
   background: var(--panel);
-object-fit: contain;
+  object-fit: contain;
 }
 
 .hero-photo{
