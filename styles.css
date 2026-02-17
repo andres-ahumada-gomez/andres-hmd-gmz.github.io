@@ -27,9 +27,9 @@ body{
 }
 
 body, h1, h2, h3, h4, h5, h6, p, a, li {
-  font-family: "CMU Serif", serif !important;
-  font-style: italic;
-  letter-spacing: 3px;
+  font-family: "CMU Serif", Serif !important;
+  font-style: italic !important;
+  letter-spacing: 3px !important;
 }
 
 a{
