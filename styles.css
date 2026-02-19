@@ -162,6 +162,42 @@ h3{
   }
 }
 
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+/* Botones */
+.buttons a {
+    display: inline-block;
+    padding: 14px 30px;
+    font-size: 20px;
+
+    text-decoration: none;
+    border: none;
+    outline: none;
+
+    color: white;
+    background-color: #9C1F14;
+    border-radius: 8px;
+    transition: 0.3s;
+
+   font-family: "JetBrains Mono", monospace;
+   /*font-style: italic;*/
+   letter-spacing: 1px;
+}
+
+/* Hover */
+.buttons a:hover {
+    background-color: #5a5d64;
+}
+
 /* Buttons */
 .cta{
   display:flex;
