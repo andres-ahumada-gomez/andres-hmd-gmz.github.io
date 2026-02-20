@@ -224,6 +224,19 @@ h3{
 }
 .button-ghost:hover{ text-decoration:none; background: rgba(0,0,0,.03); }
 
+@media (max-width: 600px){
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .buttons a {
+    width: 100%;
+    max-width: 320px;
+    text-align: center;
+  }
+}
+
 /* Links line */
 .links{
   list-style:none;
