@@ -32,8 +32,8 @@ body, h1, h2, h3, h4, h5, h6, p, a, li {
   /*font-family: "Cascadia Code", monospace;*/
 }
   /*font-style: italic !important;*/
-  /*letter-spacing: 1px !important;*/
-}
+  /*letter-spacing: 1px !important;
+}*/
 
 a{
   color: var(--accent);
@@ -307,7 +307,7 @@ h3{
   border-radius: var(--radius);
   padding: 16px;
   box-shadow: var(--shadow);
-  margin-bottom: 2rem;
+  /*margin-bottom: 2rem;*/
 }
 
 .card ul{
