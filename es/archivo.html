@@ -1,2 +1,86 @@
-<iframe src="documento.pdf" width="100%" height="600px"></iframe>
-<a href="documento.pdf" target="_blank">Ver documento</a>
+<!-- =========================
+   Andrés Ahumada Gómez — Archivo en español
+   ========================= -->
+
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Andrés - Archivo</title>
+  <meta name="description" content="Web profesional de Andrés Ahumada Gómez." />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=CMU+Serif&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/cascadia-code/index.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/jetbrains-mono/index.css">
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="alternate" hreflang="en" href="https://andres-hmd-gmz.github.io/en/" />
+<link rel="alternate" hreflang="es" href="https://andres-hmd-gmz.github.io/es/" />
+<link rel="alternate" hreflang="x-default" href="https://andres-hmd-gmz.github.io/" />
+   <link rel="icon" type="image/png" href="/imgs/esf.png">
+</head>
+<body>
+  <header class="site-header">
+  <a class="brand" href="/">
+  <img src="/imgs/andres-esf2.png" alt="Logo" class="brand-logo">
+     
+  Andrés Ahumada Gómez
+  </a>
+  <nav class="nav">
+  <a href="/es/index.html#sobre-mi">Sobre mí</a>
+  <a href="/es/index.html#contacto">Contacto</a>
+
+  <span class="nav-sep" aria-hidden="true">|</span>
+
+  <div class="lang">
+    <a href="/en/archivo.html">EN</a>
+    <a class="active" href="/es/archivo.html">ES</a>
+  </div>
+</nav>
+</header>
+  <main class="container">
+    <div>
+    <h1><span class="accent">Archivo</span>.   </h1>
+  </div>
+
+
+  <section class="docs-component" id="docsComponent">
+    <aside class="docs-list">
+      <h2 class="docs-title">Documentos</h2>
+
+      <button class="doc-item is-active" data-src="/docs/SBC.pdf" type="button">
+        SBC
+      </button>
+
+      <button class="doc-item" data-src="/docs/Reglamento.pdf" type="button">
+        Reglamento
+      </button>
+    </aside>
+
+    <!-- Aquí usamos DIV, no MAIN -->
+    <div class="docs-viewer">
+      <div class="viewer-frame">
+        <iframe id="docsFrame"
+          src="/docs/SBC.pdf"
+          title="Visor de documento">
+        </iframe>
+      </div>
+    </div>
+  </section>
+ 
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <small>© <span id="year"></span> Andrés Ahumada Gómez</small>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date();
+  </script>
+</body>
+</html>
+
+
+<!--<iframe src="documento.pdf" width="100%" height="600px"></iframe>
+<a href="documento.pdf" target="_blank">Ver documento</a>-->
