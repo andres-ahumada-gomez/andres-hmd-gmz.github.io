@@ -310,6 +310,7 @@ h3{
   border-radius: var(--radius);
   padding: 16px;
   box-shadow: var(--shadow);
+  overflow-wrap: break-word;
 }
 .card + .card {
   margin-top: 2rem;
