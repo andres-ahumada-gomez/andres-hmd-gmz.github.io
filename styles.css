@@ -574,3 +574,25 @@ h3{
 
 }
 
+/* Sección correo/oficina */
+.contact-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+  align-items: start;
+}
+
+/* En móvil: una columna, y cada bloque queda junto (título + contenido) */
+@media (max-width: 700px){
+  .contact-grid{
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Opcional: un pelín de aire entre h2 y p */
+.contact-item h2{
+  margin-bottom: .5rem;
+}
+.contact-item p{
+  margin: 0;
+}
