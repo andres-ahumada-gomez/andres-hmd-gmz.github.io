@@ -1,51 +1,87 @@
+<!-- =========================
+   Andrés Ahumada Gómez — Docencia en inglés
+   ========================= -->
+
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Proyectos y Publicaciones — Andrés Ahumada Gómez</title>
-  <meta name="description" content="Proyectos académicos y trabajos docentes de Andrés Ahumada Gómez." />
-  <link rel="stylesheet" href="styles.css" />
+  <title>Andrés - Teaching</title>
+  <meta name="description" content="Web profesional de Andrés Ahumada Gómez." />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=CMU+Serif&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/cascadia-code/index.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/jetbrains-mono/index.css">
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="alternate" hreflang="en" href="https://andres-hmd-gmz.github.io/en/" />
+<link rel="alternate" hreflang="es" href="https://andres-hmd-gmz.github.io/es/" />
+<link rel="alternate" hreflang="x-default" href="https://andres-hmd-gmz.github.io/" />
+   <link rel="icon" type="image/png" href="/imgs/esf.png">
 </head>
 <body>
-
   <header class="site-header">
-    <a class="brand" href="/">Andrés Ahumada Gómez</a>
-    <nav class="nav">
-      <a href="/">Inicio</a>
-      <a class="active" href="projects.html">Proyectos</a>
-    </nav>
-  </header>
+  <a class="brand" href="/">
+  <img src="/imgs/andres-esf2.png" alt="Logo" class="brand-logo">
+     
+  Andrés Ahumada Gómez
+  </a>
+  <nav class="nav">
+  <a href="/en/index.html#about-me">About me</a>
+  <a href="/en/index.html#contact">Contact</a>
 
+  <span class="nav-sep" aria-hidden="true">|</span>
+
+  <div class="lang">
+    <a class="active" href="/en/docencia.html">EN</a>
+    <a href="/es/docencia.html">ES</a>
+  </div>
+</nav>
+</header>
   <main class="container">
-    <h1>Proyectos y Publicaciones</h1>
-    <p class="lead">
-      Selección de trabajos académicos y materiales docentes.
-    </p>
+    <div>
+    <h1><span class="accent">Teaching</span>.   </h1>
 
-    <section class="grid">
+  </div>
 
-      <article class="card">
-        <h2>Material docente en R</h2>
-        <p>
-          Desarrollo de recursos para la enseñanza de programación y análisis de datos
-          en grados universitarios.
-        </p>
-        <p>
-          <a href="https://github.com/andres-hmd-gmz" target="_blank">
-            Ver repositorios en GitHub
-          </a>
-        </p>
-      </article>
-
-      <article class="card">
-        <h2>Investigación aplicada</h2>
-        <p>
-          Proyectos centrados en análisis cuantitativo y aplicación práctica
-          en entornos académicos y profesionales.
-        </p>
-      </article>
-
+ 
+       </section>
+     <section class="section">
+   
+        <div class="card">
+          <h2><span class="accent">Academic year 25-26</span></h2>
+           <h3>CUNEF Universidad</h3>
+           
+          <ul>
+             <li>Operations research (in spanish)</li>
+            <li> Programming for Data Science</li>
+             <li>Programming in R (x2)</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h2><span class="accent">Academic Year 24-25</span></h2>
+           <h3>CUNEF Universidad</h3>
+      
+          <ul>
+            <li>Programming (x2) (in spanish)</li>
+            <li>Dara collection and Processing (x2)</li>
+          </ul>
+        </div>
+          <div class="card">
+          <h2><span class="accent">Curso 23-24</span></h2>
+          <h3>Facultad de Ciencias<br> Universidad Nacional Autónoma de México</h3>
+          <ul>
+            <li>Analytic Geometry (in spanish)</li>
+          </ul>
+        <p> </p>
+          
+          <h3>Escuela de Ciencias e Ingeniería<br>Instituto Tecnológico y de Estudios Superiores de Monterrey</h3>
+          <ul>
+            <li>Fundamental Mathematical Modeling (x2) (in spanish)</li>
+            <li>Mathematical Reasoning</li>
+             <li>Modeling with Systems of Differential Equations (in spanish)</li>
+             <li>Intermediate Mathematical Modeling</li>
+          </ul>
+        </div>
     </section>
   </main>
 
@@ -56,9 +92,7 @@
   </footer>
 
   <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
+    document.getElementById("year").textContent = new Date();
   </script>
-
 </body>
 </html>
-
